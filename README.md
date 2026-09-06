@@ -1,45 +1,67 @@
-# ☕ Java SE Assignments 
+# ☕ Java SE Assignments
 
-This repository contains a collection of structured Java SE programming assignments developed for academic coursework and personal practice.
+A collection of Java SE programming assignments developed for academic coursework and programming practice.
 
-Each assignment targets fundamental programming concepts in Java, ranging from control structures and loops to object-oriented programming and business logic modeling.
-
----
-
-## 📁 Structure
-
-Each folder named `assignmentXX` includes:
-
-- Java source code in a `src/` directory
-- A `run.bat` (Windows) and/or `run.sh` (Linux/macOS) script to compile and execute the program
-- A `README.md` with the original problem description
+The assignments cover fundamental Java concepts, progressing from control structures and loops to object-oriented programming, matrix operations, business logic modeling, and Robocode behaviors.
 
 ---
 
-## ✅ Topics Covered
+## 📁 Project Structure
 
-| Assignment | Topic                                                             |
-|------------|-------------------------------------------------------------------|
-| 01         | Tax calculation using if-else and switch                          |
-| 02         | Multiplication table using nested loops                           |
-| 03         | Average and count of values above average                         |
-| 04         | Matrix class using OOP                                            |
-| 05         | Business logic modeling: OOP and non-OOP (5.1 – 5.5)              |
-| 06         | Robocode robot logic and behaviors                                |
+Each `assignmentXX` directory contains:
+
+- Java source code inside a `src/` directory
+- `run.bat` and/or `run.sh` scripts for compiling and running the program
+- A `README.md` containing the original assignment description
 
 ---
 
-## ⚙️ Requirements
+## 📚 Topics Covered
 
-- Java JDK 17 or newer
-- IntelliJ IDEA or any Java-compatible IDE
-- Ensure `javac` is accessible via command line (update PATH if needed)
+| Assignment | Topic |
+|---|---|
+| 01 | Tax calculation using `if-else` and `switch` |
+| 02 | Multiplication table using nested loops |
+| 03 | Average calculation and values above average |
+| 04 | Matrix implementation using object-oriented programming |
+| 05 | Business logic modeling using OOP and non-OOP approaches |
+| 06 | Robocode robot logic and behaviors |
 
 ---
 
-## 📚 Source & Credit
+## 🧰 Technologies Used
 
-Problems are taken from the Java course available at:
+- **Java SE**
+- **JDK 17**
+- **Object-Oriented Programming (OOP)**
+- **Robocode**
 
-🔗 https://www.acs.ase.ro/java  
-Based on: Liang, *Introduction to Java Programming*, 8th Edition, 2011, Pearson Education, ISBN: 0132130807
+---
+
+## ▶️ Running the Assignments
+
+Java JDK 17 or later is required.
+
+Each assignment can be compiled and executed using its included `run.bat` or `run.sh` script, depending on the operating system.
+
+Alternatively, the source code can be opened and executed using IntelliJ IDEA or another Java-compatible IDE.
+
+---
+
+## 📚 Source & Credits
+
+The assignment problems are based on materials from the Java course provided by the Bucharest University of Economic Studies:
+
+`https://www.acs.ase.ro/java`
+
+Some exercises are based on:
+
+Liang, Y. Daniel. *Introduction to Java Programming*, 8th Edition, Pearson Education, 2011. ISBN: 0132130807.
+
+---
+
+## 👩‍💻 Author
+
+**Mihaela-Irina Divoiu**
+
+Academic coursework developed at the Bucharest University of Economic Studies, Faculty of Economic Cybernetics, Statistics and Informatics.
